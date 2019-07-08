@@ -1,0 +1,52 @@
+<div class="card">
+  <div class="card-header">
+    Angular RxJs Paging
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Tasks</h5>
+    <div class="card-text">
+      <ol type="1">
+        <li> Use the link https://randomuser.me/api/?seed=foobar&results=20 to retrieve data, transform into user.model.ts and display on html</li>
+        <li> Add Logic to not hit the server again if more subscriptions are added</li>
+        <li> Display number of results based on buttons(hardcode options to 20, 40, 60). Default is 20. </li>
+        <li> Add logic, when user clicks on 40, should display 40 results and so on</li>
+        <li> Add paging, with button Next/Previous. Use https://randomuser.me/api/?seed=foobar&results=limitParameter&page=pageParameter to page the result </li>
+        <li> Add logic to disable previous button if pageNumber is 1.</li>
+      </ol>
+    </div>
+  </div>
+</div>
+<table class="table">
+    <tbody>
+      <tr>
+        <td>
+            <span class="font-weight-bolder">Display Current Page Size that's being rendered</span>
+            <p>logic to add buttons to display page size goes here</p>
+        </td>
+      </tr>
+      <tr>
+          <td>
+              <span class="font-weight-bolder">Display Current Page Number </span>
+              <p>Next/Previous Button for paging goes here</p>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Avatar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Display data in the columns</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
